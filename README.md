@@ -30,3 +30,25 @@ To create an API key:
 
 Congratulations — HADash is now connected!  
 If you wish, you can customize dashboards via the Home Assistant web interface. HADash will automatically display them.
+
+---
+
+### Supported Cards
+
+HADash currently supports the following card types:
+
+- **Entities**
+- **Button**
+- **Gauge**
+- **Weather**
+- **Statistics Graph** - only one entity and one state
+- **Heading**
+- **Markdown** - simplified
+- **Picture Elements** - elements are not clickable
+- **Picture**
+- **Picture Entity** – only cameras
+
+> ⚠️ Some card types may have limited features or be displayed in a simplified format.
+
+Support for additional card types is planned for future updates.
+If you have any requests or suggestions, feel free to [create a ticket](https://github.com/Jon-Elf/HADash-public/issues)
