@@ -52,3 +52,7 @@ HADash currently supports the following card types:
 
 Support for additional card types is planned for future updates.
 If you have any requests or suggestions, feel free to [create a ticket](https://github.com/Jon-Elf/HADash-public/issues)
+
+
+# Resources
+- [![Discord Chat](https://img.shields.io/discord/1403038611661918389?logo=discord&logoColor=ffffff&color=7389D8)](https://discord.gg/a8Ucmcv8J4)
