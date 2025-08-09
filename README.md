@@ -37,16 +37,18 @@ If you wish, you can customize dashboards via the Home Assistant web interface. 
 
 HADash currently supports the following card types:
 
-- **Entities**
-- **Button**
-- **Gauge**
-- **Weather**
-- **Statistics Graph** - only one entity and one state
-- **Heading**
-- **Markdown** - simplified
-- **Picture Elements** - elements are not clickable
-- **Picture**
-- **Picture Entity** – only cameras
+- **Entities Card**
+- **Entity Card**
+- **Button Card**
+- **Gauge Card**
+- **Weather Card**
+- **Statistics Graph Card** - only one entity and one state
+- **Heading Card**
+- **Markdown Card** - simplified
+- **Picture Elements Card** - elements are not clickable
+- **Picture Card**
+- **Picture Entity Card** – only cameras
+- **Sensor Card**
 
 > ⚠️ Some card types may have limited features or be displayed in a simplified format.
 
