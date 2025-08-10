@@ -49,6 +49,7 @@ HADash currently supports the following card types:
 - **Picture Card**
 - **Picture Entity Card** – only cameras
 - **Sensor Card**
+- **Vertical Stack Card**
 
 > ⚠️ Some card types may have limited features or be displayed in a simplified format.
 
@@ -58,3 +59,4 @@ If you have any requests or suggestions, feel free to [create a ticket](https://
 
 # Resources
 - [![Discord Chat](https://img.shields.io/discord/1403038611661918389?logo=discord&logoColor=ffffff&color=7389D8)](https://discord.gg/a8Ucmcv8J4)
+- [![Reddit Community](https://img.shields.io/reddit/subreddit-subscribers/HADashATV?logo=reddit)](https://www.reddit.com/r/HADashATV/)
