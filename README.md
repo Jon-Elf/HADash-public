@@ -1,3 +1,40 @@
+# HADash – What's New
+
+### v1.5.0 – 13 Aug 2025
+- Multiple dashboard views support (sections & masonry)  
+- Custom icon support  
+- Performance improvements and bug fixes
+
+<details>
+<summary>Changelog</summary>
+
+**v1.5.0 – 13 Aug 2025**  
+- Multiple dashboard views support (sections & masonry)  
+- Custom icon support  
+- Performance improvements and bug fixes  
+
+**v1.4.7 – 12 Aug 2025**  
+- Bug fixes  
+- Added Debug section  
+
+**v1.4.5 – 10 Aug 2025**  
+- Vertical Stack Card  
+- HTTPS support  
+- Fixed dashboard name conflicts  
+
+**v1.4 – 8 Aug 2025**  
+- Sensor Card, Clock Card  
+- Improved statistics graph  
+- Fullscreen mode for cameras/graphs  
+- Badges in section headings  
+- Animated toggle switches  
+- Auto-hiding top toolbar  
+
+</details>
+ 
+
+---
+
 # Connecting HADash to Your Home Assistant
 
 Follow these steps to connect the HADash app to your Home Assistant instance:
@@ -33,28 +70,38 @@ If you wish, you can customize dashboards via the Home Assistant web interface. 
 
 ---
 
-### Supported Cards
+# Cards Support
 
-HADash currently supports the following card types:
-
-- **Entities Card**
-- **Entity Card**
-- **Button Card**
-- **Gauge Card**
-- **Weather Card**
-- **Statistics Graph Card** - only one entity and one state
-- **Heading Card**
-- **Markdown Card** - simplified
-- **Picture Elements Card** - elements are not clickable
-- **Picture Card**
-- **Picture Entity Card** – only cameras
-- **Sensor Card**
-- **Vertical Stack Card**
-
-> ⚠️ Some card types may have limited features or be displayed in a simplified format.
-
-Support for additional card types is planned for future updates.
-If you have any requests or suggestions, feel free to [create a ticket](https://github.com/Jon-Elf/HADash-public/issues)
+| Card Name               | Status / Version         | Notes / Supported Functions       |
+|-------------------------|-------------------------|-----------------------------------|
+| Vertical Stack Card      | ✅ Supported, v1.4.5      | -                                 |
+| Heading Card             | ✅ Supported, v1.4        | -                                 |
+| Sensor Card              | ✅ Supported, v1.4        | -                                 |
+| Clock Card               | ✅ Supported, v1.4        | -                                 |
+| Entity Card              | ✅ Supported, v1.4        | -                                 |
+| Entities Card            | ✅ Supported, v1.0        | -                                 |
+| Gauge Card               | ✅ Supported, v1.0        | -                                 |
+| Weather Card             | ✅ Supported, v1.0        | -                                 |
+| Statistics Graph Card    | ✅ Supported, v1.0        | Only one entity and one state     |
+| Markdown Card            | ✅ Supported, v1.0        | Simplified                        |
+| Picture Elements Card    | ✅ Supported, v1.0        | Elements are not clickable        |
+| Picture Card             | ✅ Supported, v1.0        | -                                 |
+| Picture Entity Card      | ✅ Supported, v1.0        | Only cameras                      |
+| Thermostat Card          | 🔜 Work In Progress     | -                                 |
+| Grid Card                | 🔜 Work In Progress     | -                                 |
+| Button Card              | 🔜 Work In Progress     | -                                 |
+| Light Card               | 🔜 Work In Progress     | -                                 |
+| Horizontal Stack Card    | ⏳ Planned              | -                                 |
+| Statistic Card           | ⏳ Planned              | -                                 |
+| Glance Card              | ⏳ Planned              | -                                 |
+| Picture Glance Card      | ⏳ Planned              | -                                 |
+| To-do List Card          | ⏳ Planned              | -                                 |
+| Entity Filter            | ⏳ Planned              | -                                 |
+| History Graph            | ⏳ Planned              | -                                 |
+| Button Card              | ⏳ Planned              | -                                 |
+| Energy Distribution Card | ⏳ Planned              | -                                 |
+| Area Card                | ⏳ Planned              | -                                 |
+| Webpage Card             | ❌ Not Planned          | Apple does not allow using Apple TV as a browser |
 
 
 # Resources
