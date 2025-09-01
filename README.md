@@ -1,12 +1,18 @@
 # HADash – What's New
 
-### v1.5.0 – 13 Aug 2025
-- Multiple dashboard views support (sections & masonry)  
-- Custom icon support  
-- Performance improvements and bug fixes
+
+
+### v1.6.0 – 1 Sep 2025
+- Added Light card
+- Added Thermostat Card
 
 <details>
 <summary>Changelog</summary>
+
+**v1.6.0 – 1 Sep 2025**
+- Added Light card
+- Added Thermostat Card
+- Minor bug fixes
 
 **v1.5.0 – 13 Aug 2025**  
 - Multiple dashboard views support (sections & masonry)  
@@ -74,6 +80,8 @@ If you wish, you can customize dashboards via the Home Assistant web interface. 
 
 | Card Name               | Status / Version         | Notes / Supported Functions       |
 |-------------------------|-------------------------|-----------------------------------|
+| Light Card               | ✅ Supported, v1.6     | Only toggle action                |
+| Thermostat Card          | ✅ Supported, v1.6     | -                                 |
 | Vertical Stack Card      | ✅ Supported, v1.4.5      | -                                 |
 | Heading Card             | ✅ Supported, v1.4        | -                                 |
 | Sensor Card              | ✅ Supported, v1.4        | -                                 |
@@ -87,10 +95,8 @@ If you wish, you can customize dashboards via the Home Assistant web interface. 
 | Picture Elements Card    | ✅ Supported, v1.0        | Elements are not clickable        |
 | Picture Card             | ✅ Supported, v1.0        | -                                 |
 | Picture Entity Card      | ✅ Supported, v1.0        | Only cameras                      |
-| Thermostat Card          | 🔜 Work In Progress     | -                                 |
-| Grid Card                | 🔜 Work In Progress     | -                                 |
+| Grid Card                | 🔜 Work In Progress     | partially works in v1.6           |
 | Button Card              | 🔜 Work In Progress     | -                                 |
-| Light Card               | 🔜 Work In Progress     | -                                 |
 | Horizontal Stack Card    | ⏳ Planned              | -                                 |
 | Statistic Card           | ⏳ Planned              | -                                 |
 | Glance Card              | ⏳ Planned              | -                                 |
