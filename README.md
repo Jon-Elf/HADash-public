@@ -2,12 +2,18 @@
 
 
 
-### v1.6.0 – 1 Sep 2025
-- Added Light card
-- Added Thermostat Card
+### v1.7.1 – 13 Sep 2025
+- Added Button Card
+- Redesigned the statistics graph card with support for multiple entities and multiple types
+- Fixed a bug where dashboards with the original-states strategy were not loading
 
 <details>
 <summary>Changelog</summary>
+
+**v1.7.1 – 13 Sep 2025**
+- Added Button Card
+- Redesigned the statistics graph card with support for multiple entities and multiple types
+- Fixed a bug where dashboards with the original-states strategy were not loading
 
 **v1.6.0 – 1 Sep 2025**
 - Added Light card
@@ -80,6 +86,7 @@ If you wish, you can customize dashboards via the Home Assistant web interface. 
 
 | Card Name               | Status / Version         | Notes / Supported Functions       |
 |-------------------------|-------------------------|-----------------------------------|
+| Button Card              | ✅ Supported, v1.7.1    | -                                 |
 | Light Card               | ✅ Supported, v1.6     | Only toggle action                |
 | Thermostat Card          | ✅ Supported, v1.6     | -                                 |
 | Vertical Stack Card      | ✅ Supported, v1.4.5      | -                                 |
@@ -90,21 +97,19 @@ If you wish, you can customize dashboards via the Home Assistant web interface. 
 | Entities Card            | ✅ Supported, v1.0        | -                                 |
 | Gauge Card               | ✅ Supported, v1.0        | -                                 |
 | Weather Card             | ✅ Supported, v1.0        | -                                 |
-| Statistics Graph Card    | ✅ Supported, v1.0        | Only one entity and one state     |
+| Statistics Graph Card    | ✅ Supported, v1.0        | Supports only: min, max, mean     |
 | Markdown Card            | ✅ Supported, v1.0        | Simplified                        |
 | Picture Elements Card    | ✅ Supported, v1.0        | Elements are not clickable        |
 | Picture Card             | ✅ Supported, v1.0        | -                                 |
 | Picture Entity Card      | ✅ Supported, v1.0        | Only cameras                      |
 | Grid Card                | 🔜 Work In Progress     | partially works in v1.6           |
-| Button Card              | 🔜 Work In Progress     | -                                 |
+| Glance Card              | 🔜 Work In Progress     | -                                 |
 | Horizontal Stack Card    | ⏳ Planned              | -                                 |
 | Statistic Card           | ⏳ Planned              | -                                 |
-| Glance Card              | ⏳ Planned              | -                                 |
 | Picture Glance Card      | ⏳ Planned              | -                                 |
 | To-do List Card          | ⏳ Planned              | -                                 |
 | Entity Filter            | ⏳ Planned              | -                                 |
 | History Graph            | ⏳ Planned              | -                                 |
-| Button Card              | ⏳ Planned              | -                                 |
 | Energy Distribution Card | ⏳ Planned              | -                                 |
 | Area Card                | ⏳ Planned              | -                                 |
 | Webpage Card             | ❌ Not Planned          | Apple does not allow using Apple TV as a browser |
