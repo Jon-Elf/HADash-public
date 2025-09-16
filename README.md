@@ -10,6 +10,9 @@
 <details>
 <summary>Changelog</summary>
 
+**v1.7.2 - 16 Sep 2025**
+- Minor visual tweaks for tvOS 26
+
 **v1.7.1 – 13 Sep 2025**
 - Added Button Card
 - Redesigned the statistics graph card with support for multiple entities and multiple types
