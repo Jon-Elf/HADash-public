@@ -2,13 +2,14 @@
 
 
 
-### v1.7.1 – 13 Sep 2025
-- Added Button Card
-- Redesigned the statistics graph card with support for multiple entities and multiple types
-- Fixed a bug where dashboards with the original-states strategy were not loading
+### v1.7.3 – 24 Sep 2025
+- Fixed issue with empty cards in dashboard when using sections layout
 
 <details>
 <summary>Changelog</summary>
+
+**v1.7.3 - 24 Sep 2025**
+- Fixed issue with empty cards in dashboard when using sections layout
 
 **v1.7.2 - 16 Sep 2025**
 - Minor visual tweaks for tvOS 26
