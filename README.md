@@ -2,11 +2,24 @@
 
 
 
-### v1.7.3 – 24 Sep 2025
-- Fixed issue with empty cards in dashboard when using sections layout
-
+### v1.8.2 – 12 Nov 2025
+- Added Glance Card
+- Added device registration for the mobile_app platform
+- Automatic opening of the last dashboard on app launch
+- Optimized memory usage
+- Minor visual improvements
+- Minor bug fixes
+  
 <details>
 <summary>Changelog</summary>
+
+**v1.8.2 – 12 Nov 2025**
+- Added Glance Card
+- Added device registration for the mobile_app platform
+- Automatic opening of the last dashboard on app launch
+- Optimized memory usage
+- Minor visual improvements
+- Minor bug fixes
 
 **v1.7.3 - 24 Sep 2025**
 - Fixed issue with empty cards in dashboard when using sections layout
