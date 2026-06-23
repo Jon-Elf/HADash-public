@@ -2,16 +2,28 @@
 
 
 
-### v1.8.2 – 12 Nov 2025
-- Added Glance Card
-- Added device registration for the mobile_app platform
-- Automatic opening of the last dashboard on app launch
-- Optimized memory usage
-- Minor visual improvements
-- Minor bug fixes
+### v1.10 - 23 Jun 2026
+- Added localization: Arabic, Chinese (Simplified), Dutch, French, German, Italian, Japanese, Korean, Portuguese, Russian, Spanish.
+- Fixed a bug with Weather Card updates
   
 <details>
 <summary>Changelog</summary>
+
+**v1.10 - 23 Jun 2026**
+- Added localization: Arabic, Chinese (Simplified), Dutch, French, German, Italian, Japanese, Korean, Portuguese, Russian, Spanish.
+- Fixed a bug with Weather Card updates
+
+**v1.9.2 - 13 Jun 2026**
+- Added fullscreen mode for History
+- Added weather forecast support
+- Fixed Gauge limits issue
+- Optimized data flow for History Graph Card
+- Fixed dashboard duplication issue in older Home Assistant versions
+- Minor bug fixes
+
+**v1.9 - 6 Jun 2026**
+- Added History Graph Card
+- Added more Gauge Card styles
 
 **v1.8.2 – 12 Nov 2025**
 - Added Glance Card
