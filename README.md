@@ -76,6 +76,16 @@
 
 ---
 
+## What's HADash?
+
+HADash is a native Apple TV (tvOS) app that brings your existing Home Assistant dashboards to the big screen.
+It connects directly to your Home Assistant instance using a Long-Lived Access Token, displays your current dashboards without reconfiguration, and lets you view and control lights, sensors, cameras, graphs, and other devices from the couch or a wall-mounted display. It supports multiple servers, light/dark/custom themes, live camera feeds, and real-time data.
+
+<img width="3840" height="2160" alt="Simulator Screenshot - Apple TV 4K (3rd generation) - 2026-07-30 at 17 54 46" src="https://github.com/user-attachments/assets/ca3edc86-e50c-4cb9-9420-06a5f2e3da51" />
+<img width="3840" height="2160" alt="simulator_screenshot_7DDCDAAA-9D73-4271-ADC7-70D0EDD9A378" src="https://github.com/user-attachments/assets/df674bf3-b703-47df-aa0f-92d78795e37a" />
+
+
+
 # Connecting HADash to Your Home Assistant
 
 Follow these steps to connect the HADash app to your Home Assistant instance:
