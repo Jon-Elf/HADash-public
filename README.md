@@ -1,3 +1,5 @@
+# [Download on the App Store](https://apps.apple.com/us/app/hadash/id6748312657)
+
 # HADash – What's New
 
 
