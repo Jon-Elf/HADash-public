@@ -2,11 +2,15 @@
 
 # HADash – What's New
 
-
-
-### v1.10 - 23 Jun 2026
-- Added localization: Arabic, Chinese (Simplified), Dutch, French, German, Italian, Japanese, Korean, Portuguese, Russian, Spanish.
-- Fixed a bug with Weather Card updates
+### v1.11 - 19 Oct 2026
+- Added support for Tile and Todo List cards
+- Expanded and improved existing card layouts and interactions. 
+- Major UI refresh across dashboards, cards, servers, settings, and launch flow.
+- Added support for more card types and Home Assistant controls.
+- Improved dashboard parsing, entity handling, and service/action execution.
+- Added camera-related improvements and new entity interaction features.
+- Added in-app bug reporting to help diagnose issues faster.
+- General stability, localization, and performance improvements.
   
 <details>
 <summary>Changelog</summary>
@@ -127,8 +131,10 @@ If you wish, you can customize dashboards via the Home Assistant web interface. 
 
 | Card Name               | Status / Version         | Notes / Supported Functions       |
 |-------------------------|-------------------------|-----------------------------------|
+| To-do List Card          | ✅ Supported, v1.11       | -                          |
+| Tile Card                | ✅ Supported, v1.11       | -                          |
 | Button Card              | ✅ Supported, v1.7.1    | -                                 |
-| Light Card               | ✅ Supported, v1.6     | Only toggle action                |
+| Light Card               | ✅ Supported, v1.6     | -                                   |
 | Thermostat Card          | ✅ Supported, v1.6     | -                                 |
 | Vertical Stack Card      | ✅ Supported, v1.4.5      | -                                 |
 | Heading Card             | ✅ Supported, v1.4        | -                                 |
@@ -148,7 +154,6 @@ If you wish, you can customize dashboards via the Home Assistant web interface. 
 | Horizontal Stack Card    | ⏳ Planned              | -                                 |
 | Statistic Card           | ⏳ Planned              | -                                 |
 | Picture Glance Card      | ⏳ Planned              | -                                 |
-| To-do List Card          | ⏳ Planned              | -                                 |
 | Entity Filter            | ⏳ Planned              | -                                 |
 | History Graph            | ⏳ Planned              | -                                 |
 | Energy Distribution Card | ⏳ Planned              | -                                 |
